@@ -3,7 +3,7 @@
 A production voice AI agent built on the **Phonely** platform that handles end-to-end airline reservations entirely over the phone.
 
 📞 **Call the live agent:** (361) 321-9173
-🎥 **Demo video:** *(add Loom link here)*
+🎥 **Demo video:** *(https://app.govideolink.com/videos/d1IgwOqqS35M6Nki8TiT/?utm_source=direct&utm_medium=invite_link])*
 
 ---
 
@@ -109,15 +109,10 @@ bluewing-phonely-airlines/
 
 | Scenario | Phrase to say | Expected result |
 |---|---|---|
-| ✅ Success | *"I want to fly from New York to Los Angeles on August 15, 2026"* | Reads 5 real flights → books → sends SMS |
-| ❌ No flights (assignment test case) | *"I want to fly from Aalborg to Vancouver on August 15, 2026"* | Error branch → polite "no flights available" |
-| 🔄 Transfer | *"Can I speak to customer support?"* | Routes to support number |
-| 📚 Knowledge Base | *"What's your refund policy?"* | RAG-backed answer from uploaded policy doc |
+| Success | *"I want to fly from New York to Los Angeles on August 15, 2026"* | Reads 5 real flights → books → sends SMS |
+| No flights (assignment test case) | *"I want to fly from Aalborg to Vancouver on August 15, 2026"* | Error branch → polite "no flights available" |
+| Transfer | *"Can I speak to customer support?"* | Routes to support number |
+|  Knowledge Base | *"What's your refund policy?"* | RAG-backed answer from uploaded policy doc |
 
 ---
 
-## Built by
-
-**Tej Kiran Yenugunti**
-MS Software Engineering, San Jose State University
-[LinkedIn](https://linkedin.com/in/tejkiran-yenugunti) · [GitHub](https://github.com/tejkiranyenugunti-spec)
